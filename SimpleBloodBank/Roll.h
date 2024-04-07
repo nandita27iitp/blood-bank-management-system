@@ -1,25 +1,24 @@
 #ifndef ROLL_H_INCLUDED
 #define ROLL_H_INCLUDED
 
-#include<string>
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
-class Roll
-{
-protected:
-    long int roll;
-public:
-    long int get_roll();
-    void set_roll(long int);
+
+class Roll {
+    protected:
+        long int roll;
+    
+    public:
+        long int get_roll();
+        void set_roll(long int);
 };
-void Roll::set_roll(long int  r)
-{
-    roll=r;
-}
-long int Roll::get_roll()
-{
-    return roll;
+
+void Roll::set_roll(long int r){
+    roll = r;
 }
 
+long int Roll::get_roll(){
+    return roll;
+}
 
 #endif // ROLL_H_INCLUDED
