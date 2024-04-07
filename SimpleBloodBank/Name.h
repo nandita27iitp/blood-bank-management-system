@@ -1,22 +1,22 @@
 #ifndef NAME_H_INCLUDED
 #define NAME_H_INCLUDED
-#include<string>
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
-class Name
-{
-protected:
-    string name;
-public:
-    string get_name();
-    void set_name( string);
+
+class Name {
+    protected:
+        string name;
+    
+    public:
+        string get_name();
+        void set_name(string);
 };
-void Name::set_name(string n)
-{
-    name=n;
+
+void Name::set_name(string n) {
+    name = n;
 }
-string Name::get_name()
-{
+
+string Name::get_name() {
     return name;
 }
 
